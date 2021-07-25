@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to right,rgb(195, 235, 248), white, rgb(195, 235, 248));
+}
+.text{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    border: 30px groove;
+    border-left-color: grey;
+    border-right-color: grey;
+}
+.object{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    margin-left: 2%;
+}
+.image{
+    width: fit-content;
+    height: fit-content;
+}
+.image img{
+    border-radius: 5%;
+    color: #666;
+    box-shadow: 5px 5px;
+}
+.image:hover img{
+    opacity: 0.333333333;
+}
+.logo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.info{
+    padding-left: 3%;
+    font-size: 15px;
+}
